@@ -1,0 +1,92 @@
+.header1, .header2, .body1, .body2, .body3, .footer {
+    display: flex;
+    border: 1px solid black;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    gap: 10px;
+}
+
+.header1 p {
+    flex: 1 1 0;
+    border: 1px solid black;
+    text-align: right;
+}
+
+.header1 .header-logo {
+    flex: 6 1 0;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.header2 {
+    padding: 100px 10px;
+}
+
+.header2 .header2-text {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.header2 .header2-picture {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.body1 {
+    flex-direction: column;
+}
+
+.body1 .body1-header {
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.body1 .body1-gallery {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid black;
+}
+
+.body1 .body1-gallery .body1-frame {
+    flex: 1;
+    margin: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.body2 {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.body2 p {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.body3 .body3-action-banner {
+    flex: 1;
+    border: 1px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.body3 .body3-action-text {
+    flex:  3 1 0;
+    border: 1px solid black;
+    margin-left: 25%;
+}
+
+.body3 .body3-action-button {
+    flex: 1 1 0;
+    border: 1px solid black;
+    margin-right: 25%;
+}
+
